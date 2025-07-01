@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconductor Series: Priors – Photolithography and Moore's Law</title>
+    <!-- <meta name="description" content=""> -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h1>Semiconductor Series: Priors – Photolithography and Moore's Law</h1>
+        <h6>Jun 29 2025</h6>
+        <p>
+            Semiconductors have been the focus of a lot of the market for the past few years. Starting in the pandemic, it became clear to many people that this is an industry that we may not think about often, but has huge implications on nearly everything we do in our daily life. Anything that has a computer chip in it – from toasters to Teslas – relies on complicated supply chains and advanced manufacturing methods. But how does it all work? I will attempt to briefly explain the background, the goals of the industry here.
+        </p>
+
+        <h2>What are semiconductors and why do we need them?</h2>
+        <p>
+            I will attempt to explain my mental model here:
+        </p>
+        <ol>
+            <li>
+                Formally, a semiconductor is any element which has a electrical conductivity between an insulator (think rubber) and a conductor (like copper). Typically, the element used is silicon (not silicone!). Silicon is used to build transistors.
+            </li>
+            <li>
+                A transistor is an electrical device like a switch: given an input, it can allow electrical to flow or stop flowing – like a faucet handle. This produces a binary output: low or high, or <code>0</code> or <code>1</code>.
+            </li>
+            <li>
+                You can put multiple transistors together in different orders to create logic gates. For example, an <code>AND</code> gate takes two inputs, and if both are <code>1</code> then the output of the gate is <code>1</code>. Otherwise the output is <code>0</code>. These gates can then be combined into even more complicated logic, like adding or multiplying, which can then be combined to give even more amazing features.
+            </li>
+        </ol>
+
+        <h2>Moore's Law</h2>
+            <p>
+                Computer chips are made of many of these transistors. However, space in devices (phones, computers, cars) are often limited so the most important thing is the transistor density. It has been a goal for all semiconductor manufacturers to increase the density since the inception of the transistor, nearly 75 years ago. And, for the most part, manufacturers have succeeded in this by being exceptionally creative and persistent, and the transistor density has historically followed the so-called "Moore's Law," which predicted the steady increase in density. And as the density has increased, this has driven down the cost of electronics, making them ever more accessible to the world.
+            </p>
+
+            <p>
+                However, we are getting to a point now where we are reaching some limits imposed by physics, and there are some fears that we are running out of options to increase density. However, I think that there is much more room to grow, and there are a few different reasons for that. 
+            </p>
+
+        <h2>How do we get higher transistor density?</h2>
+            <p>
+                There are two ways to increase density: either by improving the process of manufacturing (photolithography) or improving the chip design.
+            </p>
+
+            <blockquote>
+                <h3>Aside: Photolithography</h3>
+                <p>
+                    Photolithography is the process of building structures (like transistors) on semiconductors. In the beginning this what a very manual process, but as they have gotten smaller in size (10s of nanometers), we have to rely on photolithography. Here's the process:
+                </p>
+                <ol>
+                    <li>Start with a photomask (or reticle) and a wafer. The photomask is generally a 6" by 6" square piece of quartz with an pattern etched into it, and the wafer is a circular piece of silicon varying in size. The quartz is clear except for where the pattern is, which is opaque.</li>
+                    <li>The wafer is covered in a chemical that reacts to light. Light is then shown through the photomask onto the wafer. Because of the pattern on the photomask, certain regions on the chemical-covered wafer will react, and others won't.</li>
+                    <li>Then the wafer is washed to wash away the unreacted chemical. Now there is some topography on the wafer, kind of like a riverbed.</li>
+                    <li>Now other material is placed on the wafer, and then sanded down, so that it only remains in places where the chemical reacted.</li>
+                    <li>Finally the reacted chemical is removed. </li>
+                </ol>
+
+                <p>
+                    This process is repeated anywhere from 10 to 60 times, and by building the layers on top of each other, many complicated structures can be formed. 
+                </p>
+            </blockquote>
+
+            
+            
+
+    </main>
+</body>
+</html>
