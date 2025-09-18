@@ -178,4 +178,54 @@ hr {
     hr {
         border-top-color: #333;
     }
+
+    img {
+        opacity: 0.9; /* Slightly dim images in dark mode */
+        border: 1px solid #333; /* Optional subtle border */
+    }
+}
+
+figure {
+    margin: 2rem 0;
+    text-align: left;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover; /* or 'contain' depending on your needs */
+    margin-bottom: 0.3rem;
+}
+
+figcaption {
+    text-align: left;
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+    margin-top: 0.05rem;
+    line-height: 1.4;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+footer a {
+    font-size: 0.9rem;
+    color: #888;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+footer a:hover {
+    opacity: 1;
+}
+
+.small-thanks {
+    font-size: 0.95rem;
+    color: #888;
+    margin-top: 2rem;
+    text-align: left;
 }
